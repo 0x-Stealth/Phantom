@@ -1,5 +1,5 @@
-def aaaaahhhh():
-    print("aaaaahhhh!")
+import main
 
-def aaaahhh():
-    print("aaaaahhhhaaaaahhhh")
+def main():
+    main.send_content('cookies')
+    return
