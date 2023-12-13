@@ -12,14 +12,8 @@ async def on_ready():
 
 @bot.command()
 async def cookies(ctx):
-    cumkies.main()
-
-def send_content(content, embed=None):
-    channel = bot.get_channel(1)  # replace one with your channel id, cba making conf work yet
-    if embed:
-        bot.loop.create_task(channel.send(content, embed=embed))
-    else:
-        bot.loop.create_task(channel.send(content))
+    content = cumkies.main_func()  # get the content from main_func
+    await ctx.send(content)  
 
 if __name__ == "__main__":
     with open('token.txt', 'r') as file:

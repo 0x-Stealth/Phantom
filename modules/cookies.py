@@ -1,5 +1,4 @@
 import main
 
-def main():
-    main.send_content('cookies')
-    return
+def main_func():  # no need to be async anymore
+    return 'niggers'  
