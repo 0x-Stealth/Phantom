@@ -1,5 +1,1 @@
-def niggashit():
-    print("aaah")
-
-def aaah():
-    print("aaah")
+# add this back later its old code not used
