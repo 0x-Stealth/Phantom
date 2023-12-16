@@ -21,7 +21,8 @@ class AES256Decrypt:
         # then we get the encrypted data
         # then we decrypt the encrypted data
         # then we return the decrypted data
-        # is this right
+
+
 
         pay = data [ 15 : ]
 

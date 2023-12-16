@@ -48,6 +48,3 @@ class MasterKeyFetcher:
 # yes
 # ok
 
-
-
-
