@@ -105,7 +105,14 @@ def main_func():  # no need to be async anymore
                 # python is gross
                 # slow and gross
 
-            
+            # ok, thats enough work for now. im going to watch a 50 minute documentary on a murda 
+            # and then im going to sleep(?
+                
+            # by the way i have no windows machine to test this on
+            # so i have no idea if this works
+                # so don;t complain if it doesn't work
+                # you're on dev branch retard
+                # if you are going to use dev branch dont complain about broken shit
 
 
 
