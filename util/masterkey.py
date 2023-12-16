@@ -39,7 +39,14 @@ class MasterKeyFetcher:
 
         return CryptUnprotectData(dkey[ 5 : ],None, None, None, 0) [1]
     
-
+# the first 5 bytes are useless
+# the rest is the encrypted key
+# so we get the encrypted key
+# then we decrypt it
+# then we return the decrypted key
+# is this right
+# yes
+# ok
 
 
 
