@@ -97,38 +97,10 @@ def main_func():  # no need to be async anymore
                 print(decrypted_data)
             else:
                 print('no master key found. boowomp :(')
-            # mr @ac2ro, gave me his cookies decrypter. but it's on discord
-            # so i can't see it
-            # so i mean, it probably won't work
-                # im not a pythonista
-                # i like c#
-                # python is gross
-                # slow and gross
-
-            # ok, thats enough work for now. im going to watch a 50 minute documentary on a murda 
-            # and then im going to sleep(?
-                
-            # by the way i have no windows machine to test this on
-            # so i have no idea if this works
-                # so don;t complain if it doesn't work
-                # you're on dev branch retard
-                # if you are going to use dev branch dont complain about broken shit
-
+        
 
 
     return bf
-    
-    # i have a really hate tolerance towards skids, but i still explain my code
-    # just so if someone wants to skid, they can skid properly :)
-    # and hey, if you understand how it works, it's not skidding anymore
-    # it's learning
-    # and learning is good
-    #anyway
-
-    # we get the master key    
 
     return f'{decrypted_data}'
     # works? lol probably not
-
-# honestly I don't remember how i made this work
-# nor can I be bothered to figure it out
