@@ -102,6 +102,9 @@ async def screenshot(ctx):
     
     await ctx.send(file=file)
 
+# https://media.discordapp.net/attachments/1181287370440589362/1186868838361485473/image.png?ex=6594d0be&is=65825bbe&hm=bace364353b4690357c7e87390b37137f60c001bea4ad649f948c63362f593f3&=&width=1573&height=437
+# DRAIN GANGGGG
+
 @bot.command()
 async def record(ctx):
     while True:
